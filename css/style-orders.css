@@ -1,0 +1,149 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4; /* Светлый фон для контраста */
+}
+
+.container {
+    max-width: 800px; /* Максимальная ширина контейнера */
+    margin: 0 auto; /* Центрирование контейнера */
+    padding: 20px; /* Внутренний отступ */
+    background-color: #fff; /* Фоновый цвет контейнера */
+    border-radius: 8px; /* Скругление углов */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Тень */
+}
+
+h1, h2 {
+    color: #6f42c1; /* Фиолетовый цвет заголовков */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+th{
+    border: 1px solid #ddd;
+    padding: 12px;
+}
+
+
+td{
+    border: 1px solid #ddd;
+    padding: 3px;
+    text-align: center;
+}
+
+th {
+    background-color: #6f42c1; /* Фиолетовый цвет для заголовков таблицы */
+    color: white;
+    text-align: center;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9; /* Светлый фон для четных строк */
+}
+
+
+tr:hover {
+    background-color: #e6d8f3; /* Светло-фиолетовый фон при наведении */
+}
+
+.form {
+    margin: 20px 0;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Убедитесь, что элементы формы имеют правильные отступы */
+label {
+    display: block;
+    margin: 10px 0 5px;
+    color: #333;
+}
+
+select, input[type="number"], input[type="text"] {
+    width: calc(100% - 20px); /* Учитываем отступы */
+    padding: 10px;
+    margin: 5px 0 15px; /* Отступы между элементами */
+    border: 1px solid #5a31a8;
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: border-box; /* Учитываем отступы и границы в ширине */
+}
+
+button {
+    background-color: #6f42c1; /* Фиолетовый цвет кнопок */
+    color: white;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.button {
+    background-color: #6f42c1; /* Фиолетовый цвет кнопок */
+    color: white;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    padding: 10px;
+    border-radius: 5px;
+}
+button:hover {
+    background-color: #5a31a8; /* Темнее фиолетовый при наведении */
+}
+
+.delete-button{
+    text-align: center;
+}
+.delete-button:hover {
+
+    background-color: #c82333; /* Темнее красный при наведении */
+}
+
+.error{
+    color: red;
+    text-align: center;
+}
+
+.exet{
+    background-color: #6f42c1; /* Фиолетовый цвет кнопок */
+    color: white;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Стили для сообщения об отсутствии заказов */
+.no-orders {
+    text-align: center; /* Центрирование текста */
+    color: brown; /* Красный цвет текста */
+    font-size: 18px; /* Размер шрифта */
+    padding: 20px; /* Отступы для сообщения */
+    font-weight: bold; /* Жирный шрифт */
+}
+
+.exit{
+    text-decoration: none;
+    color: brown;
+    text-align: right;
+    margin-left: 15rem;
+}
+
+.back{
+    font-size: 13px;
+}
+
+.right{
+    margin-left: 20rem;
+}
