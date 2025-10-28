@@ -9,7 +9,7 @@
 <div class="container">
     <h1>Магазин Авоська</h1>
     <header class="header">Регистрация</header>
-    <form method="POST">
+    <form action="list/register.php" method="POST">
         <input type="text" name="fullname" placeholder="ФИО" required>
         <input type="text" name="phone" placeholder="Телефон" required>
         <input type="email" name="email" placeholder="Email" required>
@@ -17,18 +17,9 @@
         <input type="password" name="password" placeholder="Пароль" required>
         <button type="submit">Зарегистрироваться</button>
     </form>
-
-    <!-- Отображение сообщений -->
-    <?php if ($successMessage): ?>
-        <p class="success-message"><?php echo $successMessage; ?></p>
-    <?php endif; ?>
-
-    <?php if ($errorMessage): ?>
-        <p class="error-message"><?php echo $errorMessage; ?></p>
-    <?php endif; ?>
-
     <div class="loginn"><span>Уже есть аккаунт? <a href="list/login.php">Войдите</a></span></div>
 </div>
 </body>
 </html>
+
 
